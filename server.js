@@ -8,7 +8,7 @@ import { match, RoutingContext } from 'react-router';
 import { routes } from './routes';
 
 const app = express();
-app.set('port', (process.env.PORT || 5000));
+const port = process.env.PORT || 5000;
 
 app.use(express.static('public'));
 
@@ -39,6 +39,7 @@ app.get('*', (req, res) => {
   });
 });
 
-app.listen(app.get('port'), function() {
-  console.log('Server started: http://localhost:' + app.get('port') + '/');
+app.listen(port, () => {
+    console.log('Service started on port :' + port);
 });
+
