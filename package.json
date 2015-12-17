@@ -1,7 +1,7 @@
 {
-  "name": "reacttest",
+  "name": "universal-react-es2015",
   "version": "0.1.5",
-  "description": "A sample Node.js app using Express 4",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "babel-node server.js"

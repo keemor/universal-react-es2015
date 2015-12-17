@@ -24794,7 +24794,7 @@
 /* 212 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 
@@ -24824,15 +24824,26 @@
 	  }
 
 	  _createClass(IndexComponent, [{
-	    key: 'render',
+	    key: "render",
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'div',
+	        "div",
 	        null,
 	        _react2.default.createElement(
-	          'p',
+	          "p",
 	          null,
-	          'This is the index page'
+	          "This page works with JavaScript Turn On and Off "
+	        ),
+	        _react2.default.createElement(
+	          "a",
+	          { href: "https://24ways.org/2015/universal-react" },
+	          "Based on Universal React"
+	        ),
+	        " by ",
+	        _react2.default.createElement(
+	          "a",
+	          { href: "https://twitter.com/Jack_Franklin" },
+	          "@Jack_Franklin"
 	        )
 	      );
 	    }
