@@ -24911,7 +24911,7 @@
 	        _react2.default.createElement(
 	          'p',
 	          null,
-	          'A little bit about me.'
+	          'A little bit about me'
 	        )
 	      );
 	    }
