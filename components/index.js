@@ -12,7 +12,7 @@ export default class IndexComponent extends React.Component {
 		
 		<p>Created by <a href="https://twitter.com/keemor">@keemor</a></p>
 
-		<p><a href="https://github.com/keemor/universal-react-es2015">Source</a></p>
+		
 		
       </div>
     );
