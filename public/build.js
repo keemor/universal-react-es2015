@@ -24756,7 +24756,7 @@
 	        _react2.default.createElement(
 	          'h2',
 	          null,
-	          'Welcome to my App'
+	          'Universal React with ES2015'
 	        ),
 	        _react2.default.createElement(
 	          'ul',
@@ -24830,9 +24830,14 @@
 	        "div",
 	        null,
 	        _react2.default.createElement(
+	          "noscript",
+	          { className: "noscript" },
+	          "JavaScript is turned off"
+	        ),
+	        _react2.default.createElement(
 	          "p",
 	          null,
-	          "This page works with JavaScript Turn On and Off "
+	          "This page works with JavaScript turned on and off "
 	        ),
 	        _react2.default.createElement(
 	          "a",
@@ -24844,6 +24849,16 @@
 	          "a",
 	          { href: "https://twitter.com/Jack_Franklin" },
 	          "@Jack_Franklin"
+	        ),
+	        _react2.default.createElement(
+	          "p",
+	          null,
+	          "Created by ",
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://twitter.com/keemor" },
+	            "@keemor"
+	          )
 	        )
 	      );
 	    }
