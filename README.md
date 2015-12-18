@@ -1,8 +1,10 @@
-# node-js-getting-started
+# Universal React with ES2015
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
 
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+This application supports the [Universal React with ES2015](https://24ways.org/2015/universal-react) article - check it out.
+
+[Demo universal-react-es2015.herokuapp.com](http://universal-react-es2015.herokuapp.com) 
 
 ## Running Locally
 
