@@ -11,6 +11,9 @@ export default class IndexComponent extends React.Component {
 		<a href="https://24ways.org/2015/universal-react">Based on Universal React</a> by <a href="https://twitter.com/Jack_Franklin">@Jack_Franklin</a>
 		
 		<p>Created by <a href="https://twitter.com/keemor">@keemor</a></p>
+
+		<p><a href="https://github.com/keemor/universal-react-es2015">Source</a></p>
+		
       </div>
     );
   }
