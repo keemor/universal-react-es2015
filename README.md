@@ -11,10 +11,11 @@ This application supports the [Universal React with ES2015](https://24ways.org/2
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
 ```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
+$ git clone git://github.com/keemor/universal-react-es2015.git # or clone your own fork
+$ cd universal-react-es2015
 $ npm install
-$ npm start
+$ webpack --config webpack.config.js (--watch as an option)
+$ babel-node server.js
 ```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).

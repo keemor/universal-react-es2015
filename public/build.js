@@ -24859,6 +24859,15 @@
 	            { href: "https://twitter.com/keemor" },
 	            "@keemor"
 	          )
+	        ),
+	        _react2.default.createElement(
+	          "p",
+	          null,
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://github.com/keemor/universal-react-es2015" },
+	            "Source on github"
+	          )
 	        )
 	      );
 	    }
